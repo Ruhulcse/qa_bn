@@ -12,6 +12,10 @@ const QuestionSchema = new Schema(
       type: String,
       required: true,
     },
+    explaination: {
+      type: String,
+      required: true,
+    },
     total_vote: {
       type: Number,
       default: 0,
